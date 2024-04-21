@@ -26,7 +26,7 @@ class _LoginPageState extends State<LoginPage> {
   void initState() {
     super.initState();
     _loginService = widget.loginService ??
-        AuthService(); // Or provide your default RegisterService constructor
+        AuthService();
   }
 
   Future<void> _login() async {
