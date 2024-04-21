@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../../homescreen/home_screen.dart';
 // import 'package:intl/intl.dart';
 
+//Tambah code pada view notification
 class NotificationPage extends StatelessWidget {
   const NotificationPage({super.key});
   // const String constantDateTimeString = "2024-03-26 13:22";
