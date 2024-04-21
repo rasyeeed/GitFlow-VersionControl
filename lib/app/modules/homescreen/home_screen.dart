@@ -22,12 +22,9 @@ class _HomeScreenState extends State<HomeScreen> {
   ];
 
   Future<bool> _onWillPop() async {
-    // Handle the system back button press based on the current page index
     if (currentPageIndex == 0) {
-      // If on the Dashboard, allow the default back navigation behavior
       return true;
     } else {
-      // If on any other page, navigate back to the Dashboard
       setState(() {
         currentPageIndex = 0;
         _pageController.animateToPage(
