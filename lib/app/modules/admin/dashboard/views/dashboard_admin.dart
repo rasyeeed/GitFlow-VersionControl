@@ -51,8 +51,7 @@ class AdminHomePage extends StatelessWidget {
 
                       final startDateString =
                           DateFormat('dd-MM').format(startDate);
-                      final endDateString =
-                          DateFormat('dd-MM').format(endDate);
+                      final endDateString = DateFormat('dd-MM').format(endDate);
                       final period = startDateString + " - " + endDateString;
                       return PostCard(
                         type: post.kategori,
@@ -73,3 +72,4 @@ class AdminHomePage extends StatelessWidget {
     );
   }
 }
+//.....
