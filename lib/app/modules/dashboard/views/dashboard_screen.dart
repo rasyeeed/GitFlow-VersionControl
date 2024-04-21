@@ -7,9 +7,10 @@ import 'package:unishare/app/modules/notification/views/notification_screen.dart
 import 'package:unishare/app/widgets/card/homepage_card.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
+//Ini tambah code dashborad screen
 class Dashboard extends StatelessWidget {
   const Dashboard({super.key});
-
+  //Ini tambah code lagi
   @override
   Widget build(BuildContext context) {
     double screenWidth = MediaQuery.of(context).size.width;
