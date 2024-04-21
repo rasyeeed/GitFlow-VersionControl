@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import '../../widgets/milestone_card.dart';
 import '../../widgets/pencapaian_card.dart';
 import '../homescreen/home_screen.dart';
-
+//ini tambah code milestone page
 class MilestonePage extends StatelessWidget {
   const MilestonePage({super.key});
 
