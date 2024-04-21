@@ -31,7 +31,7 @@ class _MakeAcaraPostState extends State<MakeAcaraPost> {
     "Bisnis",
     "Sains"
   ];
-  late String _selectedTema = _temaList[0]; // Default selection
+  late String _selectedTema = _temaList[0];
 
   final List<String> _kategoriList = ["Kompetisi", "Bootcamp", "Seminar"];
   late String _selectedKategori = _kategoriList[0];
