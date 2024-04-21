@@ -36,10 +36,10 @@ class _RegisterPageState extends State<RegisterPage> {
     final password = _passwordController.text.trim();
     final displayName = _nameController.text.trim();
 
-    if (email.isEmpty || password.isEmpty || displayName.isEmpty) {
-      _logger.e("Email, password, or display name is empty");
-      return;
-    }
+    // if (email.isEmpty || password.isEmpty || displayName.isEmpty) {
+    //   _logger.e("Email, password, or display name is empty");
+    //   return;
+    // } UNCOMMENT THIS
 
     // Call the registerUser method and await for the result
     final user = await _registerService.registerUser(email, password, displayName);
