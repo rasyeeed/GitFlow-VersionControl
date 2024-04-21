@@ -15,3 +15,4 @@ class LatestPostService {
     return posts;
   }
 }
+//.....

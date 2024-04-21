@@ -16,9 +16,21 @@ class AcaraPage extends StatefulWidget {
 class _AcaraPageState extends State<AcaraPage> {
   final List<Map<String, dynamic>> buttons = [
     {'key': 'all-category', 'text': 'All', 'icon': Icons.interests_sharp},
-    {'key': 'kompetisi-category', 'text': 'Kompetisi', 'icon': Icons.computer_sharp},
-    {'key': 'workshop-category', 'text': 'Workshop', 'icon': Icons.settings_outlined},
-    {'key': 'seminar-category', 'text': 'Seminar', 'icon': Icons.people_alt_sharp},
+    {
+      'key': 'kompetisi-category',
+      'text': 'Kompetisi',
+      'icon': Icons.computer_sharp
+    },
+    {
+      'key': 'workshop-category',
+      'text': 'Workshop',
+      'icon': Icons.settings_outlined
+    },
+    {
+      'key': 'seminar-category',
+      'text': 'Seminar',
+      'icon': Icons.people_alt_sharp
+    },
   ];
   int _selectedIndex = 0;
   late PageController _pageController;
@@ -53,7 +65,7 @@ class _AcaraPageState extends State<AcaraPage> {
           style: TextStyle(
             fontFamily: 'Rubik',
             fontSize: 18,
-            fontWeight: FontWeight.bold, 
+            fontWeight: FontWeight.bold,
           ),
         ),
         centerTitle: true,
@@ -68,7 +80,8 @@ class _AcaraPageState extends State<AcaraPage> {
                   .entries
                   .map(
                     (entry) => Padding(
-                      padding: const EdgeInsets.only(left: 5, right: 5, bottom: 8),
+                      padding:
+                          const EdgeInsets.only(left: 5, right: 5, bottom: 8),
                       child: ElevatedButton(
                         key: Key(entry.value['key']),
                         onPressed: () {
@@ -134,3 +147,4 @@ class _AcaraPageState extends State<AcaraPage> {
     );
   }
 }
+//....

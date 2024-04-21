@@ -28,3 +28,4 @@ class AllAcaraPage extends StatelessWidget {
     );
   }
 }
+//....

@@ -65,8 +65,8 @@ class BeasiswaScreen extends StatelessWidget {
                       child: Text(
                         content[index]["jenis"], // Replace with your data key
                         style: const TextStyle(
-                          color: Colors.orange, // Set the desired orange color
-                          fontSize: 12.0, // Adjust font size as needed
+                          color: Colors.orange,
+                          fontSize: 12.0,
                         ),
                       ),
                     ),

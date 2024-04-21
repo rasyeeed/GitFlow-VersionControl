@@ -48,9 +48,15 @@ class ToDoList extends StatelessWidget {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      ChartExplanation(text: '$onTimeValue% selesai tepat waktu', color: const Color.fromARGB(255, 34, 222, 154)),
-                      ChartExplanation(text: '$lateValue% lewat batas waktu', color: const Color.fromARGB(255, 222, 34, 57)),
-                      ChartExplanation(text: '$lateValue% masih berlangsung', color: const Color.fromARGB(255, 217, 217, 217)),
+                      ChartExplanation(
+                          text: '$onTimeValue% selesai tepat waktu',
+                          color: const Color.fromARGB(255, 34, 222, 154)),
+                      ChartExplanation(
+                          text: '$lateValue% lewat batas waktu',
+                          color: const Color.fromARGB(255, 222, 34, 57)),
+                      ChartExplanation(
+                          text: '$lateValue% masih berlangsung',
+                          color: const Color.fromARGB(255, 217, 217, 217)),
                       const SizedBox(height: 16),
                       Container(
                         decoration: BoxDecoration(
@@ -64,7 +70,11 @@ class ToDoList extends StatelessWidget {
                           ],
                           borderRadius: BorderRadius.circular(73),
                         ),
-                        child: TernaryButton(onPressed: (){}, label: 'Lihat Detail', iconData: Icons.info_outline, width: 173),
+                        child: TernaryButton(
+                            onPressed: () {},
+                            label: 'Lihat Detail',
+                            iconData: Icons.info_outline,
+                            width: 173),
                       ),
                     ],
                   ),
@@ -96,7 +106,12 @@ class ToDoList extends StatelessWidget {
                 ],
                 borderRadius: BorderRadius.circular(73),
               ),
-              child: Center(child: TernaryButton(onPressed: (){}, label: 'Tambah To-do List', iconData: Icons.add_circle_outline_outlined, width: 319)),
+              child: Center(
+                  child: TernaryButton(
+                      onPressed: () {},
+                      label: 'Tambah To-do List',
+                      iconData: Icons.add_circle_outline_outlined,
+                      width: 319)),
             ),
           ],
         ),
@@ -104,3 +119,4 @@ class ToDoList extends StatelessWidget {
     );
   }
 }
+//todolist widget
