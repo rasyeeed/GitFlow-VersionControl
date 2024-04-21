@@ -13,7 +13,7 @@ class AcaraService {
           const SnackBar(content: Text('Career post uploaded successfully!')));
       Navigator.pop(context); // Assuming this is in a new screen
     } catch (error) {
-      // Show error message to the user
+      print("amerika yaa");
     }
   }
 }
