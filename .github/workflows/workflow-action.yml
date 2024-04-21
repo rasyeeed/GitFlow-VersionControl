@@ -1,6 +1,10 @@
 name: Continuous Integration & Test Report
 
-on: [push, pull_request]
+on:
+  push:
+    branches:
+      - "release*"
+      - "main"
 
 permissions:
   contents: read
